@@ -7,7 +7,7 @@ CREATE TABLE staff (
   first_name VARCHAR2(20) NOT NULL,
   last_name VARCHAR2(20) NOT NULL,
   user_password VARCHAR2(15),
-  addres VARCHAR2(30),
+  addres VARCHAR2(200),
   birth_date DATE
 );
 
@@ -32,7 +32,7 @@ CREATE TABLE customer (
   first_name VARCHAR2(20) NOT NULL,
   last_name VARCHAR2(20) NOT NULL,
   user_password VARCHAR2(15),
-  addres VARCHAR2(30),
+  addres VARCHAR2(200),
   birth_date DATE
 );
 
